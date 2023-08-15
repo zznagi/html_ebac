@@ -6,27 +6,57 @@
     <title>Exercicio Html Ebac</title>
 </head>
 <body>
-    <h1>Faça seu Cadastro</h1>
+    <div>
 
-    Nome
-    <input type="text" placeholder="Escreva seu Nome" name="nome do cadastro" id="nome_usuario">
-    <br/>
-    
-    Email
-    <input type="email" placeholder="coloque seu @email" name="coloque seu gmail" id= "gmail">
-    <br/>
+        <h1>Faça seu Cadastro</h1>
 
-    Senha
-    <input type="password" placeholder="coloque sua senha" id= "senha_usuario">
-    <br/>
+        <p>Coloque Suas Informações para Concluir seu Cadastro</p>
 
-    Sua Data de Nascimento 
-    <input type="date" id="data_usuario">
-    <br/>
-    
-    <button>
-        Cadastrar
-        <option value="cadastro"></option>
+    </div>
+
+    <form>
+        <fieldset>
+            <div>
+                
+    <label for="nome_usuario">Seu Nome</label>
+    <input type="text" placeholder="Escreva seu Nome" name="nome_usuario" id="nome_usuario">    
+            </div>
+
+            <div>
+    <label for="sobrenome_usuario">Seu Sobrenome</label>
+    <input type="text" placeholder="Escreva Seu Sobrenome Completo" name="sobrenome_usuario" id="sobrenome_usuario">
+            </div>
+
+            <div>
+    <label for="email_usuario">Seu e-mail</label>
+    <input type="email_usuario" placeholder="coloque seu @email" name="email_usuario" id= "email_usuario">
+            </div>
+
+            <div>
+                <label for="data_usuario">Sua data de Nascimento</label>
+                <input type="date" id="data_usuario">
+            </div>
+        </fieldset>
+
+
+            <fieldset>
+            <div>
+    <label for="senha_usuario">Sua Senha</label>
+    <input type="password" placeholder="coloque sua senha" name="senha_usuario" id="senha_usuario">
+            </div>
+
+
+            </fieldset>
+
+
+            <br/>
+
+    <button>    
+        <input type="submit" value="Cadastrar">
+        <input type="reset" value="Limpar">
     </button>
+
 </body>
+
+
 </html>
